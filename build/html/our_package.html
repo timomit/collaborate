@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>our_package package &#8212; collaborate 0.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="LICENSE" href="license_link.html" />
+    <link rel="prev" title="our_package" href="modules.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="license_link.html" title="LICENSE"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="modules.html" title="our_package"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">collaborate 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" accesskey="U">our_package</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">our_package package</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="our-package-package">
+<h1>our_package package<a class="headerlink" href="#our-package-package" title="Permalink to this heading">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="module-analysis">
+<span id="our-package-analysis-module"></span><h2>our_package.analysis module<a class="headerlink" href="#module-analysis" title="Permalink to this heading">¶</a></h2>
+<p>Analysis module.</p>
+<p>&#64;Team 1, 03/23</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="analysis.calc_auto">
+<span class="sig-prename descclassname"><span class="pre">analysis.</span></span><span class="sig-name descname"><span class="pre">calc_auto</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wavef</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#analysis.calc_auto" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analysis.check_if_significant">
+<span class="sig-prename descclassname"><span class="pre">analysis.</span></span><span class="sig-name descname"><span class="pre">check_if_significant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">thresh</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#analysis.check_if_significant" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check variance of columns and select the ones above a threshold.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> – dataframe to inspect</p></li>
+<li><p><strong>thresh</strong> – threshold for variance</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analysis.check_if_significant_np">
+<span class="sig-prename descclassname"><span class="pre">analysis.</span></span><span class="sig-name descname"><span class="pre">check_if_significant_np</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">thresh</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#analysis.check_if_significant_np" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analysis.do_DFT">
+<span class="sig-prename descclassname"><span class="pre">analysis.</span></span><span class="sig-name descname"><span class="pre">do_DFT</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tmax</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#analysis.do_DFT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analysis.do_fft">
+<span class="sig-prename descclassname"><span class="pre">analysis.</span></span><span class="sig-name descname"><span class="pre">do_fft</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tmax</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#analysis.do_fft" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analysis.euclidean_distance">
+<span class="sig-prename descclassname"><span class="pre">analysis.</span></span><span class="sig-name descname"><span class="pre">euclidean_distance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">list_ref</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">list_comp</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vectors</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#analysis.euclidean_distance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analysis.get_correlation_measure">
+<span class="sig-prename descclassname"><span class="pre">analysis.</span></span><span class="sig-name descname"><span class="pre">get_correlation_measure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#analysis.get_correlation_measure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get correlations within columns of a dataframe.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas dataframe</em>) – dataframe</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-data_handling">
+<span id="our-package-data-handling-module"></span><h2>our_package.data_handling module<a class="headerlink" href="#module-data_handling" title="Permalink to this heading">¶</a></h2>
+<p>Data import routines</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="data_handling.plot_columns">
+<span class="sig-prename descclassname"><span class="pre">data_handling.</span></span><span class="sig-name descname"><span class="pre">plot_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">titlestr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#data_handling.plot_columns" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot the data for visiual inspection.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="data_handling.read_in_df">
+<span class="sig-prename descclassname"><span class="pre">data_handling.</span></span><span class="sig-name descname"><span class="pre">read_in_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filedir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#data_handling.read_in_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load data from testfile using pandas</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="data_handling.read_in_np">
+<span class="sig-prename descclassname"><span class="pre">data_handling.</span></span><span class="sig-name descname"><span class="pre">read_in_np</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filedir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#data_handling.read_in_np" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load data from testfile using numpy</p>
+</dd></dl>
+
+</section>
+<section id="module-main">
+<span id="our-package-main-module"></span><h2>our_package.main module<a class="headerlink" href="#module-main" title="Permalink to this heading">¶</a></h2>
+<p>This is the main routine of our package!</p>
+<p>Here, all the subroutines are executed and the results are stored whereever…</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="main.numerical">
+<span class="sig-prename descclassname"><span class="pre">main.</span></span><span class="sig-name descname"><span class="pre">numerical</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">plot</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#main.numerical" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-settings">
+<span id="our-package-settings-module"></span><h2>our_package.settings module<a class="headerlink" href="#module-settings" title="Permalink to this heading">¶</a></h2>
+<p>Global settings for package</p>
+</section>
+<section id="module-statistics">
+<span id="our-package-statistics-module"></span><h2>our_package.statistics module<a class="headerlink" href="#module-statistics" title="Permalink to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="statistics.plot_correlation">
+<span class="sig-prename descclassname"><span class="pre">statistics.</span></span><span class="sig-name descname"><span class="pre">plot_correlation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshv</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#statistics.plot_correlation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plots correlation of significant data in heatmap and save plot as PDF</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df</strong> – Pandas DataFrame object with numerical values</p></li>
+<li><p><strong>threshv</strong> – the threshhold value that filters out insignificant data</p></li>
+<li><p><strong>output_path</strong> – to which directory will the PDF be saved</p></li>
+<li><p><strong>output_name</strong> – the name of the PDF</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A dataframe with significant data</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="statistics.plot_relevant">
+<span class="sig-prename descclassname"><span class="pre">statistics.</span></span><span class="sig-name descname"><span class="pre">plot_relevant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshv</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#statistics.plot_relevant" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plots significant data in pairplot and save plot as PDF</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df</strong> – Pandas DataFrame object with numerical values</p></li>
+<li><p><strong>threshv</strong> – the threshhold value that filters out insignificant data</p></li>
+<li><p><strong>output_path</strong> – to which directory will the PDF be saved</p></li>
+<li><p><strong>output_name</strong> – the name of the PDF</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A dataframe with significant data</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">our_package package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-analysis">our_package.analysis module</a><ul>
+<li><a class="reference internal" href="#analysis.calc_auto"><code class="docutils literal notranslate"><span class="pre">calc_auto()</span></code></a></li>
+<li><a class="reference internal" href="#analysis.check_if_significant"><code class="docutils literal notranslate"><span class="pre">check_if_significant()</span></code></a></li>
+<li><a class="reference internal" href="#analysis.check_if_significant_np"><code class="docutils literal notranslate"><span class="pre">check_if_significant_np()</span></code></a></li>
+<li><a class="reference internal" href="#analysis.do_DFT"><code class="docutils literal notranslate"><span class="pre">do_DFT()</span></code></a></li>
+<li><a class="reference internal" href="#analysis.do_fft"><code class="docutils literal notranslate"><span class="pre">do_fft()</span></code></a></li>
+<li><a class="reference internal" href="#analysis.euclidean_distance"><code class="docutils literal notranslate"><span class="pre">euclidean_distance()</span></code></a></li>
+<li><a class="reference internal" href="#analysis.get_correlation_measure"><code class="docutils literal notranslate"><span class="pre">get_correlation_measure()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-data_handling">our_package.data_handling module</a><ul>
+<li><a class="reference internal" href="#data_handling.plot_columns"><code class="docutils literal notranslate"><span class="pre">plot_columns()</span></code></a></li>
+<li><a class="reference internal" href="#data_handling.read_in_df"><code class="docutils literal notranslate"><span class="pre">read_in_df()</span></code></a></li>
+<li><a class="reference internal" href="#data_handling.read_in_np"><code class="docutils literal notranslate"><span class="pre">read_in_np()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-main">our_package.main module</a><ul>
+<li><a class="reference internal" href="#main.numerical"><code class="docutils literal notranslate"><span class="pre">numerical()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-settings">our_package.settings module</a></li>
+<li><a class="reference internal" href="#module-statistics">our_package.statistics module</a><ul>
+<li><a class="reference internal" href="#statistics.plot_correlation"><code class="docutils literal notranslate"><span class="pre">plot_correlation()</span></code></a></li>
+<li><a class="reference internal" href="#statistics.plot_relevant"><code class="docutils literal notranslate"><span class="pre">plot_relevant()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="modules.html"
+                          title="previous chapter">our_package</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="license_link.html"
+                          title="next chapter">LICENSE</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/our_package.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="license_link.html" title="LICENSE"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="modules.html" title="our_package"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">collaborate 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" >our_package</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">our_package package</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023, t. hensel.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 6.1.3.
+    </div>
+  </body>
+</html>
